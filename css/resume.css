@@ -113,3 +113,21 @@ a {
   color: #146d91; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+
+.Project {
+  background-color: #f8f9fa;
+  border: #146d91 3px solid;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Project:hover {
+  background-color: #146d91;
+  color: white;
+  transform: scale(1.15);
+  transition: 0.3s;
+}
